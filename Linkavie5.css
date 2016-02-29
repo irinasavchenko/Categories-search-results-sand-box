@@ -8,7 +8,6 @@ html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable,
 }
 
 ul {
-
     margin-left: 1.4em;
     list-style: square;
 }
@@ -17,15 +16,14 @@ button, input {
     margin: 0;
     padding: 0;
 }
-img { border: 0;}
-{
-    margin: 0;
-    padding: 0;
+
+img {
+    border: 0;
 }
 
 body{
     margin: auto 0;
-    min-width: 760px;
+    min-width: 947px;
 }
 
 @font-face {
@@ -111,6 +109,7 @@ body{
 .menu-items li.thomas {
     position: relative;
 }
+
 .bagecount {
     background-image: url(./images/menu_items_6_3.png);
     top: 8px;
@@ -132,6 +131,7 @@ body{
     width: 100%;
     border-bottom: 1px solid white;
 }
+
 .page-title p{
     font-size: 16px;
     line-height: 48px;
@@ -163,10 +163,12 @@ body .blue {
     font-family: 'Weblysleek UI Semilight';
     line-height: 82px;
 }
+
 .container-communities .name-communities {
     float: left;
     display: block;
 }
+
 .menu-items-communities {
     float: right;
     display: block;
@@ -215,7 +217,6 @@ body .blue {
 .results {
     display: block;
     float: left;
-
 }
 
 .results span {
@@ -240,7 +241,7 @@ body .blue {
 input[type="text"] {
     width: 153px;
     height: 30px;
-    padding: 0 35px 0 0;
+    padding: 0 35px 0 10px;
     vertical-align: middle;
     border: 1px solid #f2f2f2;
     outline: none;
@@ -255,6 +256,7 @@ input[type="text"] {
     font-family: 'WeblySleek UI Semibold';
     color: #5d5d5d;
     border: 1px solid #e6e6e6;
+    cursor: pointer;
 }
 .btn-search {
     width: 32px;
@@ -265,25 +267,29 @@ input[type="text"] {
 .search img {
     margin-left: -60px;
     margin-top: 5px;
-
 }
+
 .search-info {
     margin-top: 25px;
     height: 55px;
     width: 100%;
 }
+
 .search-info .list-buttons li {
     display: block;
     float: left;
     margin-right: 8px;
 }
+
 .search-info ul {
     margin-left: 0;
 }
+
 .search-info button {
     width: 115px;
     height: 30px;
 }
+
 button:active, button:focus {
     outline: none;
 }
@@ -293,10 +299,12 @@ button:active, button:focus {
     width: 40px;
     height: 30px;
 }
+
 .list-buttons {
     display: block;
     float: left;
 }
+
 .list-links {
     display: block;
     float: right;
@@ -316,6 +324,7 @@ button:active, button:focus {
     border-right: 1px solid #000000;
     margin-left: 8px;
 }
+
 .list-links li.active-link a {
     font-family: 'WeblySleek UI Semibold';
 }
@@ -324,6 +333,7 @@ button:active, button:focus {
     font-family: 'WeblySleek UI Semibold';
     background-color: #ffffff;
 }
+
 .list-links a:last-child {
     border-right: none;
 }
@@ -348,6 +358,7 @@ button:active, button:focus {
 .found-content p,span {
     color: #000000;
 }
+
 .name-content {
     display: block;
     float: left;
